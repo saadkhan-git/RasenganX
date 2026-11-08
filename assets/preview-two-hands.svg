@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title description">
+  <title id="title">Illustration of two-hand tracking</title>
+  <desc id="description">Two open palms with contrasting orange and blue landmark skeletons, each with its own glowing Rasengan.</desc>
+  <defs>
+    <radialGradient id="bg"><stop offset="0" stop-color="#17202d"/><stop offset="1" stop-color="#06090e"/></radialGradient>
+    <radialGradient id="warm"><stop stop-color="#fff5a0"/><stop offset=".35" stop-color="#ff9a38" stop-opacity=".9"/><stop offset="1" stop-color="#ff5e1a" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cool"><stop stop-color="#e7ffff"/><stop offset=".35" stop-color="#59e6ff" stop-opacity=".9"/><stop offset="1" stop-color="#168bff" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="9"/></filter>
+  </defs>
+  <rect width="960" height="540" rx="22" fill="url(#bg)"/>
+  <circle cx="292" cy="214" r="91" fill="url(#warm)" filter="url(#blur)"/>
+  <circle cx="668" cy="214" r="91" fill="url(#cool)" filter="url(#blur)"/>
+  <circle cx="292" cy="214" r="77" fill="url(#warm)"/>
+  <circle cx="668" cy="214" r="77" fill="url(#cool)"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+    <g stroke="#ff8a3d">
+      <path d="M250 424 264 365 253 301 236 228 233 187 244 178 256 187 269 281 275 161 288 151 301 162 297 285 316 147 329 138 342 151 319 294 351 176 365 170 376 183 345 315 324 371 320 424"/>
+      <path d="m264 365 35-39 36-32 31 22 17 38-15 47-27 21"/>
+    </g>
+    <g stroke="#62f0ff">
+      <path d="M626 424 640 365 629 301 612 228 609 187 620 178 632 187 645 281 651 161 664 151 677 162 673 285 692 147 705 138 718 151 695 294 727 176 741 170 752 183 721 315 700 371 696 424"/>
+      <path d="m640 365 35-39 36-32 31 22 17 38-15 47-27 21"/>
+    </g>
+  </g>
+  <g fill="#fff36a" stroke="#17100a" stroke-width="2">
+    <circle cx="264" cy="365" r="6"/><circle cx="253" cy="301" r="6"/><circle cx="236" cy="228" r="6"/><circle cx="233" cy="187" r="6"/>
+    <circle cx="275" cy="161" r="6"/><circle cx="316" cy="147" r="6"/><circle cx="351" cy="176" r="6"/><circle cx="345" cy="315" r="6"/>
+  </g>
+  <g fill="#ff66e0" stroke="#10091a" stroke-width="2">
+    <circle cx="640" cy="365" r="6"/><circle cx="629" cy="301" r="6"/><circle cx="612" cy="228" r="6"/><circle cx="609" cy="187" r="6"/>
+    <circle cx="651" cy="161" r="6"/><circle cx="692" cy="147" r="6"/><circle cx="727" cy="176" r="6"/><circle cx="721" cy="315" r="6"/>
+  </g>
+  <text x="292" y="490" fill="#ffb16e" font-family="system-ui, sans-serif" font-size="17" font-weight="600" text-anchor="middle">LEFT HAND · WARM TRACKING</text>
+  <text x="668" y="490" fill="#8cefff" font-family="system-ui, sans-serif" font-size="17" font-weight="600" text-anchor="middle">RIGHT HAND · COOL TRACKING</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title description">
+  <title id="title">Illustration of the Rasengan open-palm effect</title>
+  <desc id="description">A glowing blue Rasengan appears above a tracked open palm against a dark background, with a camera hint at the bottom.</desc>
+  <defs>
+    <radialGradient id="background">
+      <stop offset="0" stop-color="#172638"/>
+      <stop offset="1" stop-color="#05080d"/>
+    </radialGradient>
+    <radialGradient id="orb">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".18" stop-color="#c5f8ff"/>
+      <stop offset=".48" stop-color="#48d7ff" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#1685ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+  <rect width="960" height="540" rx="22" fill="url(#background)"/>
+  <path d="M0 430 Q210 385 420 425 T960 405 V540 H0Z" fill="#101720" opacity=".8"/>
+  <circle cx="488" cy="244" r="118" fill="#24bfff" opacity=".65" filter="url(#glow)"/>
+  <circle cx="488" cy="244" r="106" fill="url(#orb)"/>
+  <circle cx="488" cy="244" r="56" fill="none" stroke="#e8fcff" stroke-opacity=".72" stroke-width="2"/>
+  <path d="M433 255c22-50 67-70 111-47M455 285c35 20 74 9 97-20M469 198c-7 27 3 48 30 63" fill="none" stroke="#fff" stroke-opacity=".8" stroke-linecap="round" stroke-width="4"/>
+  <g fill="none" stroke="#55edff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+    <path d="M394 420 425 365 415 300 397 222 393 179 404 166 417 174 431 280 433 151 446 136 460 148 458 281 475 126 490 114 503 127 490 286 520 153 535 146 546 160 523 305 557 234 572 232 582 245 548 342 520 384 510 430"/>
+    <path d="m425 365 33-42 32-37 33 19 25 37 2 42-24 34"/>
+    <path d="m415 300 43-19m32 5 0-5m33 24 0-19m-80-48 15-1m27-17 15 1m28 12 13 3"/>
+  </g>
+  <g fill="#fff36a" stroke="#07111a" stroke-width="2">
+    <circle cx="425" cy="365" r="6"/><circle cx="415" cy="300" r="6"/><circle cx="397" cy="222" r="6"/>
+    <circle cx="393" cy="179" r="6"/><circle cx="433" cy="151" r="6"/><circle cx="475" cy="126" r="6"/>
+    <circle cx="520" cy="153" r="6"/><circle cx="557" cy="234" r="6"/><circle cx="548" cy="342" r="6"/>
+    <circle cx="510" cy="430" r="6"/>
+  </g>
+  <rect x="295" y="472" width="370" height="36" rx="18" fill="#000" fill-opacity=".52"/>
+  <text x="480" y="496" fill="#cfe9ff" font-family="system-ui, sans-serif" font-size="15" letter-spacing=".7" text-anchor="middle">OPEN YOUR PALM TO SUMMON THE RASENGAN</text>
+</svg>

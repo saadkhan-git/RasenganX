@@ -18,9 +18,12 @@ The repository includes the Rasengan effect clip used by the app. Open the MP4 t
 
 **[▶ View the Rasengan effect clip](assets/rasengan.mp4)**
 
-<!-- TODO: Add a screenshot of the running webcam experience when one is available. -->
+The images below are static illustrations of the app's visual behavior, not webcam screenshots. The MP4 is the bundled effect asset, not a recording of the complete application.
 
-> **Screenshots:** No application screenshots or animated demo are currently included in the repository. The MP4 above is the effect asset, not a recording of the complete application.
+<p align="center">
+  <img src="assets/preview-open-palm.svg" alt="Illustration of a glowing Rasengan above a tracked open palm" width="49%">
+  <img src="assets/preview-two-hands.svg" alt="Illustration of two-hand tracking with distinct skeleton colors" width="49%">
+</p>
 
 ## About the Project
 
@@ -50,15 +53,11 @@ The page runs without a project backend or build step. Camera frames are passed 
 5. **Update the effect:** Each hand has its own charge value. An open palm increases opacity; a closed or unseen hand decreases it. On the transition to an open palm, the corresponding Rasengan video restarts.
 6. **Place and display:** The effect is positioned above the hand using the wrist and middle-finger base landmarks. The webcam, skeleton, vignette, and effect layers are composited in the browser in real time.
 
-## Screenshots & Media
-
-The project currently contains one visual asset, the Rasengan effect video. It does not include screenshots of hand detection, tracking, or the complete app output.
+## Bundled Media
 
 ### Bundled Rasengan effect
 
 [Open the Rasengan effect clip (MP4)](assets/rasengan.mp4)
-
-<!-- TODO: Add separate, verified screenshots for hand detection, hand tracking, and the final webcam output when available. -->
 
 ## Technologies Used
 
@@ -108,7 +107,9 @@ The application is a static page: there is no `npm install`, package manifest, o
 ```text
 .
 ├── assets/
-│   └── rasengan.mp4   # Video used for the on-hand visual effect
+│   ├── preview-open-palm.svg  # Illustration of the open-palm effect
+│   ├── preview-two-hands.svg  # Illustration of two-hand tracking
+│   └── rasengan.mp4           # Video used for the on-hand visual effect
 ├── .gitignore         # Ignores .DS_Store files
 ├── index.html         # Complete app: markup, styles, and JavaScript
 └── README.md          # Project documentation
@@ -116,7 +117,7 @@ The application is a static page: there is no `npm install`, package manifest, o
 
 ## Future Improvements
 
-- Add screenshots or a short capture of the complete webcam experience.
+- Add verified screenshots or a short capture of the complete webcam experience.
 - Offer adjustable gesture sensitivity and effect positioning.
 - Add on-screen setup guidance and camera/permission error feedback.
 - Make the effect asset and visual settings easier to customize.
